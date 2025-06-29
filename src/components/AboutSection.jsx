@@ -35,7 +35,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                target="_blank"
+                href="https://drive.google.com/file/d/1WBm1EsnfSQR-z6kaFyFTtt5kw9AEafir/view?usp=drive_link"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -50,7 +51,7 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Delivery Consultant</h4>
                   <p className="text-muted-foreground">
                     Creating responsive websites and web applications with
                     modern frameworks.
@@ -64,7 +65,7 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg"> Data Engineer</h4>
                   <p className="text-muted-foreground">
                     Designing intuitive user interfaces and seamless user
                     experiences.
@@ -79,7 +80,7 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Backend Developer</h4>
                   <p className="text-muted-foreground">
                     Leading projects from conception to completion with agile
                     methodologies.
