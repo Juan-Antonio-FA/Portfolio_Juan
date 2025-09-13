@@ -3,38 +3,35 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "AI-NOW SaaS",
+    description: "A beautiful landing page app using React and Next.js.",
+    image: "/projects/GIT.png",
+    tags: ["React", "Prisma", "Supabase", "Clerk"],
+    githubUrl: "https://github.com/pigchip/AI-NOW",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "FoodForLess",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Interactive platform for exploring and visualizing food prices across different regions.",
+    image: "/projects/GIT.png",
+    tags: ["Angular", "Spring Boot", "Supabase","TypeScript"],
+    githubUrl: "https://github.com/DarKbYte02/FoodForLess",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Mikro E-commerce",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "E-commerce page with product listings, shopping cart, and checkout functionality.",
+    image: "/projects/GIT.png",
+    tags: ["React", "Supabase", "Stripe","MySQL"],
+    githubUrl: "https://github.com/hecarrillo/mikro",
   },
 ];
 
 export const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 relative">
+    <section id="projects" className="py-16 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
@@ -42,8 +39,9 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+         Here are some of my featured projects and collaborations.  
+         Each one reflects my focus on building scalable, secure, and efficient solutions,  
+         combining modern technologies.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -75,19 +73,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
+      
                     <a
                       href={project.githubUrl}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300 "
                     >
-                      <Github size={20} />
+                      <Github size={35} />
                     </a>
                   </div>
                 </div>

@@ -2,7 +2,7 @@ import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-4 relative">
+    <section id="about" className="py-16 px-4 relative">
       {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -12,20 +12,22 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Service Delivery Consultant & Data Engineer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Computer Systems Engineering student with hands-on experience in 
+              <strong> application performance monitoring (APM)</strong>, 
+              <strong> data pipelines</strong>, and <strong>cloud technologies</strong>. 
+              Skilled in tools like Dynatrace, Datadog, and Vertica, I bring both 
+              analytical and technical expertise to optimize systems and ensure 
+              reliable solutions.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Passionate about <strong>cloud computing, cybersecurity, and artificial intelligence</strong>, 
+              I constantly seek to expand my knowledge and apply innovative approaches 
+              to solve complex challenges in data-driven environments.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -53,8 +55,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Delivery Consultant</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Supporting enterprise systems with monitoring, reporting, and 
+                    performance optimization using APM tools.
                   </p>
                 </div>
               </div>
@@ -67,8 +69,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Data Engineer</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Developing ETL processes, managing servers, and applying 
+                    machine learning models for advanced data analysis.
                   </p>
                 </div>
               </div>
@@ -82,8 +84,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Backend Developer</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Building scalable web solutions with React, Next.js, and 
+                    database design, ensuring both functionality and performance.
                   </p>
                 </div>
               </div>
