@@ -1,7 +1,6 @@
 {
   "name": "beautiful-portfolio",
-  "homepage": "https://Juan-Antonio-FA.github.io/Portfolio_Juan/",
-  "private": true,
+  "homepage": "https://juan-antonio-fa.github.io/Portfolio_Juan/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
